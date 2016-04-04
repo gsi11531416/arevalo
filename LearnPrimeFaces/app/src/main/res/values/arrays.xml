@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_pregunta">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    //primer Quiz
+    <string-array name="respuesta_uno_c_uno">
+        <item>Java Faces</item>
+        <item>Prime Faces</item>
+        <item>Android</item>
+    </string-array>
+
+    <string-array name="respuesta_dos_c_uno">
+        <item>PrimeUI</item>
+        <item>PrimeIU</item>
+        <item>IUPrime</item>
+    </string-array>
+
+    <string-array name="respuesta_tres_c_uno">
+        <item>PrimeFaces</item>
+        <item>ElmentsFaces</item>
+        <item>PrimeElements</item>
+    </string-array>
+    //segundo Quiz
+    <string-array name="respuesta_uno_c_dos">
+        <item>Ninguna de la Lista</item>
+        <item>Completado</item>
+        <item>Autocompletar</item>
+    </string-array>
+
+    <string-array name="respuesta_dos_c_dos">
+        <item>Inputtext</item>
+        <item>Inputtextarea</item>
+        <item>TextView</item>
+    </string-array>
+
+    <string-array name="respuesta_tres_c_dos">
+        <item>RadioButton</item>
+        <item>CheckBox</item>
+        <item>Slider</item>
+    </string-array>
+
+
+</resources>

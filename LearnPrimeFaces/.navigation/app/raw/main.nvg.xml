@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.primefaceslfar.ui.a_tema_ii.SeleccionPreferenciasActivityInput"/>
+      <point      
+        x = "1712"      
+        y = "120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.primefaceslfar.ui.login.SeleccionPreferenciasActivityLogin"/>
+      <point      
+        x = "912"      
+        y = "96"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.primefaceslfar.ui.ActividadConfiguracion"/>
+      <point      
+        x = "88"      
+        y = "68"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.primefaceslfar.ui.a_tema_i.SeleccionPreferenciasActivityWebComponentes"/>
+      <point      
+        x = "2540"      
+        y = "104"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.primefaceslfar.ui.ActividadPrincipal"/>
+      <point      
+        x = "3432"      
+        y = "100"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

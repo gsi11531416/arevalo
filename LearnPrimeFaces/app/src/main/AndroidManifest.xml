@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.primefaceslfar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_primefaces"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.PrimeFaces" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="mx.edu.utng.primefaceslfar.ui.ActividadPrincipal"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ConNavigationDrawer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.edu.utng.primefaceslfar.ui.ActividadConfiguracion"
+            android:label="@string/titulo_actividad_configuracion"
+            android:parentActivityName="mx.edu.utng.primefaceslfar.ui.ActividadPrincipal" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mx.edu.utng.primefaceslfar.ui.ActividadPrincipal" />
+        </activity>
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.MainActivity" />
+
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.QuizActivityWebComponets"></activity>
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.ResultActivityWebComponents"></activity>
+        <activity android:name=".ui.a_tema_ii.QuizActivityInput"/>
+        <activity android:name=".ui.a_tema_ii.ResultActivityInput"/>
+
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.LoginGmail" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.Login" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.Register" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.ReadComments" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.SeleccionPreferenciasActivityWebComponentes" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_ii.SeleccionPreferenciasActivityInput" />
+        <activity android:name="mx.edu.utng.primefaceslfar.ui.login.SeleccionPreferenciasActivityLogin" />
+    </application>
+
+</manifest>

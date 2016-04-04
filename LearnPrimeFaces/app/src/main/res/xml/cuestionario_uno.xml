@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Cuestionario 1: Introduccion a PrimeFaces"
+        >
+
+        <EditTextPreference
+            android:key="pregunta_uno"
+            android:summary="@string/pregunta_uno_cues_uno"
+            android:title="@string/title_question_one"
+            android:enabled="true"
+            android:editable="false"
+            android:background="@color/accentColor"
+            />
+        <ListPreference
+            android:key="respuesta_uno"
+            android:title="Posibles Respuestas"
+            android:summary="Presiona para ver Respuestas"
+            android:dialogTitle="Respuestas"
+            android:entryValues="@array/respuesta_uno_c_uno"
+            android:entries="@array/respuesta_uno_c_uno"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+       android:title="Pregunta 2"
+       >
+       <EditTextPreference
+           android:key="pregunta_dos"
+           android:summary="Is a collection of rich javascript widgets based on jQuery UI. PrimeUI is a spin-off from the popular JavaServer Faces Component Suite, PrimeFaces."
+           android:title="Pregunta Dos"
+           android:enabled="true"
+           android:editable="false"></EditTextPreference>
+
+       <ListPreference
+           android:key="respuesta_dos"
+           android:title="Posibles Respuestas"
+           android:summary="Presiona para ver Respuestas"
+           android:dialogTitle="Respuestas"
+           android:entryValues="@array/respuesta_dos_c_uno"
+           android:entries="@array/respuesta_dos_c_uno"></ListPreference>
+   </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Pregunta 3">
+
+        <EditTextPreference
+            android:key="pregunta_tres"
+            android:summary="Es una biblioteca no es un marco, características tales como el enlace de datos, validación, enrutamiento están fuera del ámbito de aplicación ya que pueden ser proporcionados por el marco de la elección."
+            android:title="Pregunta 3"
+            android:enabled="true"
+            android:editable="false"
+            />
+        <ListPreference
+            android:key="respuesta_tres"
+            android:title="Posibles Respuestas"
+            android:summary="Presiona para ver Respuestas"
+            android:dialogTitle="Respuestas"
+            android:entryValues="@array/respuesta_tres_c_uno"
+            android:entries="@array/respuesta_tres_c_uno"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Pregunta 4">
+
+        <EditTextPreference
+            android:key="pregunta_cuatro"
+            android:summary="...Reducir drásticamente la cantidad de trabajo necesario para crear una apariencia agradable y funcionales de interfaces de usuario proporcionando un kit de desarrollo rápido de aplicaciones basadas en tecnologías de componentes web estándar. esfuerzo de mantenimiento también se beneficia de esto ya que hay menos cantidad de la escritura en cuestión."
+            android:title="Pregunta 4"
+            android:enabled="true"
+            android:editable="false"
+            />
+        <EditTextPreference
+            android:key="@string/answer_four"
+            android:title="Introduce la Respuesta Correcta"
+            android:summary="Tu Respuesta es:"
+            android:enabled="true"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="@string/btn_regresar"
+        android:title="@string/regresar"
+        android:summary="bla bla bla"
+        >
+    </Preference>
+</PreferenceScreen>

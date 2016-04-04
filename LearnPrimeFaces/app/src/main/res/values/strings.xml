@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">"Aprende PrimeFaces"</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_pro">Versión Pro</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Acerca de</string>
+    <string name="item_categorias">Categorías</string>
+    <string name="item_configuracion">Configuración</string>
+
+    <string name="titulo_lo_mejor">Lo Mejor</string>
+
+    <string name="titulo_tab_prime1">Prime</string>
+    <string name="titulo_tab_prime2">Prime</string>
+    <string name="titulo_tab_prime3">Prime</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+
+    <string name="etiqueta_pro">Pro</string>
+
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_info_usuario">Información del usuario</string>
+
+    <string name="preferencias">Crear Preferencias</string>
+    <string name="nuevo_nombre">Teclea el nuevo nombre de la aplicacion</string>
+    <string name="cambiar_nombre">Cambia el nombre de la aplicacion</string>
+    <string name="nueva_ip">Teclea nueva IP</string>
+    <string name="cambiar_ip">Cada que cambia la ip puedes actualizar</string>
+    <string name="conf_basic">Configuraciones Basicas</string>
+    <string name="conf_second">Configuraciones Secundarias</string>
+    <string name="contenido">Contenido habilitado para mayores de edad</string>
+    <string name="mayores_edad">Mayores de Edad</string>
+    <string name="lenguage">Idioma de la Aplicacion</string>
+    <string name="cambiar_idioma">Cambiar de idioma de la APP</string>
+    <string name="question_do">Hacer Cuestionario</string>
+    <string name="resultado">Ver Resultado</string>
+
+    <string name="regresar">Regresar</string>
+    <string name="btn_regresar">regresar</string>
+    <string name="pregunta_uno_cues_uno">Es una biblioteca no es un marco, características tales como el enlace de datos, validación, enrutamiento están fuera del ámbito de aplicación ya que pueden ser proporcionados por el marco de la elección.</string>
+    <string name="title_question_one">Pregunta Uno</string>
+    <string name="title_prime_uno">PrimeElements - Web Components</string>
+    <string name="text_team">Web componentes es un conjunto de cuatro especificaciones para crear componentes de interfaz de usuario reutilizables. Estas diferentes tecnologías son elementos personalizados, Sombra DOM, HTML Las importaciones y plantillas.</string>
+    <string name="text_team_a">PrimeElements es una biblioteca no es un marco, características tales como el enlace de datos, validación, enrutamiento están fuera del ámbito de aplicación ya que pueden ser proporcionados por el marco de la elección.</string>
+    <string name="question_uno_b">Es un widget de entrada de proporcionar sugerencias en tiempo real cuando está tecleando</string>
+    <string name="title_respuesta">Posibles Respuestas</string>
+    <string name="summar_respuesta">Presiona para ver Respuestas</string>
+    <string name="DialogTitle">Respuestas</string>
+    <string name="question2">Pregunta 2</string>
+    <string name="enunciado_2_c_2">Ofrece AutoComplete AUTORESIZE, características caracteres de contador restante.</string>
+    <string name="title_question_2">Pregunta Dos</string>
+    <string name="title_list">Posibles Respuestas</string>
+    <string name="enunciado_3_b">Es una extensión de elemento de botón de radio estándar con capacidades de desollar.</string>
+    <string name="title_question_3">Pregunta 3</string>
+    <string name="enunciado_4_b">Es un componente de entrada para proporcionar una entrada numérica por medio de botones de incremento y decremento.</string>
+    <string name="title_question_4">Pregunta 4</string>
+    <string name="title_respuesta_4">Introduce la Respuesta Correcta</string>
+    <string name="summary_4_b">Tu Respuesta es:</string>
+    <string name="login">iniciar_sesion</string>
+    <string name="logintitle">Iniciar Sesion</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="name_user">Luis Arevalo</string>
+    <string name="universidad_name">Universidad</string>
+    <string name="university_name">Universidad Tecnologica del Norte de Guanajuato</string>
+    <string name="answer_four">respuesta_cuatro</string>
+    <string name="teacher">ING. Tacho Rodriguez</string>
+    <string name="title_teacher">Profesor</string>
+    <string name="text_sample_dialog">Lorem ipsum dolor sit amet...</string>
+    <string name="text_button_sample">Dismiss</string>
+    <string name="text_help">Help</string>
+    <string name="text_button_help">Ayuda</string>
+    <string name="answers_button_quiz">iconPos, icon</string>
+    <string name="answers_two_button_quiz">iconos, iconosPrimeFaces</string>
+    <string name="answers_three_button_quiz">icon, iconPos</string>
+    <string name="btn_ok_button_quiz">Verificar</string>
+    <string name="txv_button_team">Button Basic</string>
+    <string name="txv_team_two">Button ofrece un estilo más elementos de botón nativas.</string>
+    <string name="txv_team_button_sec">Uso Button se aplica sobre un elemento de botón es regular usando = atributo p-botón.</string>
+    <string name="txv_input_prime">Input Text</string>
+    <string name="txv_team_imput">InputText es una extensión de inputText estándar con capacidades de desollar.</string>
+    <string name="txv_tema_input_second">Usage Inputtext is an extension to standard input element so applied using is=p-inputtext attribute.</string>
+    <string name="txv_team_prime_menu">Dialog</string>
+    <string name="txv_firs_team_menu">Dialog is a overlay panel widget featuring modality, minimize, maximize and animations.</string>
+    <string name="rbx">iconPos, icon</string>
+    <string name="rbtn_answers_secod">iconos, iconosPrimeFaces</string>
+    <string name="rbtn_answers_team_menu">icon, iconPos</string>
+    <string name="verificar">Verificar</string>
+    <string name="update">Actualizando...</string>
+    <string name="txv_title_semples">Sticky</string>
+    <string name="txv_team_samples">Sticky component positions other components as fixed so that these components stay in window viewport during scrolling. In this example, menubar component made sticky so it is always visible during page scroll.</string>
+    <string name="rbtn_one_samples_quiz">iconPos, icon</string>
+    <string name="txv_title_panel">Data</string>
+    <string name="txv_team_panel">Carousel displays content using a slide effect feauturing responsive mode, swipe support for touch enabled devices and various customization options.</string>
+    <string name="txv_team_panel_b">Uso Button se aplica sobre un elemento de botón es regular usando = atributo p-botón.</string>
+    <string name="txv_panel_quiz">_____________ displays content using a slide effect feauturing responsive mode, _____________ support for touch enabled devices and various customization options.</string>
+    <string name="rtbn_res_a">iconPos, icon</string>
+    <string name="rbtn_res_b">iconos, iconosPrimeFaces</string>
+    <string name="rbtn_res_c">icon, iconPos</string>
+    <string name="data">Data</string>
+    <string name="txv_panel_two">Carousel displays content using a slide effect feauturing responsive mode, swipe support for touch enabled devices and various customization options.</string>
+    <string name="txv_tean_panel_b">Uso Button se aplica sobre un elemento de botón es regular usando = atributo p-botón.</string>
+    <string name="rbtn_overlay_a">iconPos, icon</string>
+    <string name="rbtn_overlay_b">iconos, iconosPrimeFaces</string>
+    <string name="rbtn_overlay_c">icon, iconPos</string>
+    <string name="txv_panel">Panel</string>
+    <string name="txv_panel_answer">Panel is a grouping component providing with content toggle and close features.</string>
+    <string name="txv_panel_v">Ejemplo de Panel</string>
+    <string name="rbtn_nose_a">iconPos, icon</string>
+    <string name="rbtn_nose_b">iconos, iconosPrimeFaces</string>
+    <string name="rbtn_nose_c">icon, iconPos</string>
+    <string name="txv_team_multimedia">Messages</string>
+    <string name="txv_team_multimedia_b">Messages widget is used to display messages inline</string>
+    <string name="txv_title_multimedia">Multimedia</string>
+    <string name="txv_team_misc_quiz">Galleria is a content gallery widget.</string>
+    <string name="txv_menu">Menu</string>
+    <string name="txv_team_messages">Menu is a highly customizable navigation/command component that supports dynamic and static positioning.</string>
+    <string name="txv_mensaggees">in the next table there ...</string>
+
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="app_id">611423039007572</string>
+    <string name="team_input_autocomplete">Input Autocomplete: es un widget de entrada de proporcionar sugerencias en tiempo real cuando está tecleando ..</string>
+    <string name="team_input_textarea">InputTextarea: ofrece AutoComplete AUTORESIZE, características caracteres de contador restante.</string>
+    <string name="team_button_split">SplitButton: un conjunto de comandos en una superposición con un comando predeterminado.</string>
+    <string name="str_team_data_carrusel">Carrusel muestra el contenido con un efecto deslizante feauturing modo de respuesta, el apoyo golpe para los dispositivos habilitados para tocar y diversas opciones de personalización.</string>
+    <string name="str_panel_title">Panel</string>
+    <string name="str_team_accordion_panel">Accordion: una colección de contenidos en las fichas. De marcado requiere es un conjunto de cabeceras y contenidos correspondientes.</string>
+    <string name="str_team_grudcss_panel">GrudCSS: es un (1,4 kb) utilidad de diseño de peso ligero de respuesta optimizada para dispositivos móviles, tablets y ordenadores de sobremesa.</string>
+    <string name="str_team_grudcss_panelII">GrudCss: es una utilidad de diseño sensible ligera optimizada para dispositivos móviles, tablets y ordenadores de sobremesa. Hasta 12 columnas están soportados sobre la base de modos de fluidos y fijos. Cualquier combinación de columnas son compatibles, siempre y cuando total es de 12. Para obtener la respuesta añadir .ui-rejilla sensible y para la anchura de contenedores fijos añadir la interfaz de usuario de la red de la fijada en el contenedor.</string>
+    <string name="str_team_notify_panel">Notify: es una barra de notificación que se puede colocar en la parte superior o inferior de la pantalla.</string>
+    <string name="str_team_tabview_panel">TabView: es un componente del panel con pestañas con las pestañas del lado del cliente, carga de contenidos dinámicos con Ajax y efectos de transición de contenido.</string>
+</resources>

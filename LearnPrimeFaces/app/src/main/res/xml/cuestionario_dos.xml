@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Cuestionario 2: PrimeFaces"
+        >
+
+        <EditTextPreference
+            android:key="pregunta_uno"
+            android:summary="@string/question_uno_b"
+            android:title="@string/title_question_one"
+            android:enabled="true"
+            android:editable="false"
+            android:background="@color/accentColor"
+            />
+        <ListPreference
+            android:key="respuesta_uno_b"
+            android:title="@string/title_respuesta"
+            android:summary="@string/summar_respuesta"
+            android:dialogTitle="@string/DialogTitle"
+            android:entryValues="@array/respuesta_uno_c_dos"
+            android:entries="@array/respuesta_uno_c_dos"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+       android:title="@string/question2"
+       >
+       <EditTextPreference
+           android:key="pregunta_dos"
+           android:summary="@string/enunciado_2_c_2"
+           android:title="@string/title_question_2"
+           android:enabled="true"
+           android:editable="false"></EditTextPreference>
+
+       <ListPreference
+           android:key="respuesta_dos_b"
+           android:title="@string/title_list"
+           android:summary="@string/summar_respuesta"
+           android:dialogTitle="@string/DialogTitle"
+           android:entryValues="@array/respuesta_dos_c_dos"
+           android:entries="@array/respuesta_dos_c_dos"></ListPreference>
+   </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Pregunta 3">
+
+        <EditTextPreference
+            android:key="pregunta_tres"
+            android:summary="@string/enunciado_3_b"
+            android:title="@string/title_question_3"
+            android:enabled="true"
+            android:editable="false"
+            />
+        <ListPreference
+            android:key="respuesta_tres_b"
+            android:title="@string/title_list"
+            android:summary="@string/summar_respuesta"
+            android:dialogTitle="@string/DialogTitle"
+            android:entryValues="@array/respuesta_tres_c_dos"
+            android:entries="@array/respuesta_tres_c_dos"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Pregunta 4">
+
+        <EditTextPreference
+            android:key="pregunta_cuatro"
+            android:summary="@string/enunciado_4_b"
+            android:title="@string/title_question_4"
+            android:enabled="true"
+            android:editable="false"
+            />
+        <EditTextPreference
+            android:key="respuesta_cuatro_b"
+            android:title="@string/title_respuesta_4"
+            android:summary="@string/summary_4_b"
+            android:enabled="true"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="regresar_dos"
+        android:title="@string/regresar"
+        android:summary="bla bla bla"
+        >
+    </Preference>
+</PreferenceScreen>
