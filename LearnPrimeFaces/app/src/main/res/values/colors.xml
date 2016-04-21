@@ -11,4 +11,9 @@
     <color name="color_light">#ffffff</color>
 
     <color name="background_header_seccion_inicio">#4B4B4B</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="background">#008080</color>
+
+    <color name="fondo_puntuaciones">#FCE792</color>
+
 </resources>

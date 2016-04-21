@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="?android:attr/listPreferredItemHeight"
+       android:layout_marginRight="25dp">
+       <ImageView android:id="@+id/icono"
+             android:layout_width="?android:attr/listPreferredItemHeight"
+             android:layout_height="match_parent"
+             android:layout_alignParentLeft="true"
+             android:src="@drawable/zb1"
+             android:layout_marginLeft="20dp"/>
+       <TextView android:id="@+id/puntuacion"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/icono"
+             android:layout_alignParentTop="true"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:singleLine="true"
+             android:text="texto"
+             android:gravity="center"
+             android:paddingTop="10dp" />
+       <TextView android:id="@+id/eliminados"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="texto"
+             android:layout_toRightOf="@id/icono"
+             android:layout_below="@id/puntuacion"
+             android:layout_alignParentBottom="true"
+             android:gravity="right|top"
+             android:paddingRight="20dp"
+             android:paddingBottom="10dp"/>
+</RelativeLayout>

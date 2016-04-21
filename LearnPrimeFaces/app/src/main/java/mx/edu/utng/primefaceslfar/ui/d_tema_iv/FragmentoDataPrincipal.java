@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mx.edu.utng.primefaceslfar.R;
+import mx.edu.utng.primefaceslfar.database.puntaje.SQLControlador;
 
 
 /**
@@ -27,6 +28,7 @@ public class FragmentoDataPrincipal extends Fragment {
     private AppBarLayout appBar;
     private TabLayout pestanas;
     private ViewPager viewPager;
+    SQLControlador dbconeccion;
 
     public FragmentoDataPrincipal() {
     }
@@ -41,6 +43,8 @@ public class FragmentoDataPrincipal extends Fragment {
 
             // Setear adaptador al viewpager.
             viewPager = (ViewPager) view.findViewById(R.id.pager);
+            dbconeccion = new SQLControlador(getActivity());
+            dbconeccion.abrirBaseDeDatos();
             poblarViewPager(viewPager);
             pestanas.setupWithViewPager(viewPager);
         }
@@ -59,9 +63,11 @@ public class FragmentoDataPrincipal extends Fragment {
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment(new FragmentoDataTema(), "PrimeFaces");
-        adapter.addFragment(new FragmentoDataQuiz(), "Question");
-        adapter.addFragment(new FragmentoDataVideo(),"Video");
-        
+        if (Integer.parseInt(dbconeccion.intento("3")) <= 2 && Integer.parseInt(dbconeccion.intento("3")) > 0) {
+            adapter.addFragment(new FragmentOpenQuizData(), "Question");
+            adapter.addFragment(new FragmentoDataVideo(), "Video");
+        }
+
 
         viewPager.setAdapter(adapter);
     }

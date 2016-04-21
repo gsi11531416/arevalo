@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mx.edu.utng.primefaceslfar.R;
+import mx.edu.utng.primefaceslfar.ui.login.Login;
 
 
 /**
@@ -27,6 +28,7 @@ public class FragmentoButtonPrincipal extends Fragment {
     private AppBarLayout appBar;
     private TabLayout pestanas;
     private ViewPager viewPager;
+
 
     public FragmentoButtonPrincipal() {
     }
@@ -59,9 +61,18 @@ public class FragmentoButtonPrincipal extends Fragment {
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment(new FragmentoButtonTema(), "PrimeFaces");
-        adapter.addFragment(new FragmentoButtonQuiz(), "Question");
-        adapter.addFragment(new FragmentoButtonVideo(),"Video");
-        
+        adapter.addFragment(new OpenLogin(), "Bienvenido");
+        if (Login.success == 1) {
+
+            adapter = new AdaptadorSecciones(getFragmentManager());
+            adapter.addFragment(new FragmentoButtonTema(), "PrimeFaces");
+            adapter.addFragment(new FragmentOpenQuizButton(), "Question");
+            adapter.addFragment(new FragmentoButtonVideo(), "Video");
+        }else {
+            adapter = new AdaptadorSecciones(getFragmentManager());
+            adapter.addFragment(new FragmentoButtonTema(), "PrimeFaces");
+            adapter.addFragment(new OpenLogin(), "Bienvenido");
+        }
 
         viewPager.setAdapter(adapter);
     }

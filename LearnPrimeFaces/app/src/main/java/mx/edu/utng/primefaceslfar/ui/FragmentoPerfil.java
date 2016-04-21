@@ -17,8 +17,10 @@ import mx.edu.utng.primefaceslfar.ui.login.Login;
  */
 public class FragmentoPerfil extends Fragment {
     TextView usuario,correo,mainUSuario;
-    String cadUser,cadEmail;
+    public static String cadUser,cadEmail;
+
     public FragmentoPerfil() {
+        cadUser = Login.correo.getText().toString();
     }
 
     @Override
@@ -28,7 +30,7 @@ public class FragmentoPerfil extends Fragment {
 
         usuario = (TextView)v.findViewById(R.id.texto_nombre);
         correo = (TextView)v.findViewById(R.id.texto_email);
-        cadUser = Login.correo.getText().toString();
+
         cadEmail = Login.pass.getText().toString();
         usuario.setText(Login.name);
         correo.setText(cadUser);

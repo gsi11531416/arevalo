@@ -21,10 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.facebook.CallbackManager;
-import com.facebook.FacebookSdk;
-import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.SignInButton;
@@ -49,10 +46,7 @@ import mx.edu.utng.primefaceslfar.R;
  */
 public class Login extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, View.OnClickListener{
     // login facebbok
-    private TextView info;
-    private LoginButton loginButton;
-    private CallbackManager callbackManager;
-    private LoginResult loginResult = null;
+
     //login Gmail
     private GoogleApiClient mGoogleApiClient;
     private SignInButton btnSignIn;
@@ -64,6 +58,8 @@ public class Login extends ActionBarActivity implements GoogleApiClient.Connecti
     private boolean mIntentInProgress;
 
     private boolean mSignInClicked;
+
+    public static int success;
 
     private ConnectionResult mConnectionResult;
 
@@ -95,7 +91,7 @@ public class Login extends ActionBarActivity implements GoogleApiClient.Connecti
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        FacebookSdk.sdkInitialize(getApplicationContext());
+
 
 
 
@@ -189,6 +185,7 @@ public class Login extends ActionBarActivity implements GoogleApiClient.Connecti
             case R.id.btn_start_facebook:
                 i = new Intent(this, MainActivity.class);
                 startActivity(i);
+                finish();
                 break;
             default:
                 break;
@@ -275,7 +272,7 @@ public class Login extends ActionBarActivity implements GoogleApiClient.Connecti
                 mGoogleApiClient.connect();
             }
         }else{
-            callbackManager.onActivityResult(requestCode, responseCode, intent);
+            //callbackManager.onActivityResult(requestCode, responseCode, intent);
         }
     }
 
@@ -412,7 +409,7 @@ public class Login extends ActionBarActivity implements GoogleApiClient.Connecti
 
         @Override
         protected String doInBackground(String... args) {
-            int success;
+
             String email = correo.getText().toString();
             String password = pass.getText().toString();
             try {

@@ -36,7 +36,7 @@
             android:id="@+id/item_8"
             android:icon="@drawable/ic_primefaces"
             android:title="Menu" />
-        <item
+       <!-- <item
             android:id="@+id/item_9"
             android:checked="true"
             android:icon="@drawable/ic_primefaces"
@@ -52,12 +52,12 @@
         <item
             android:id="@+id/item_12"
             android:icon="@drawable/ic_primefaces"
-            android:title="Samples" />
+            android:title="Samples" />>-->
         <item
             android:id="@+id/item_13"
             android:checked="true"
             android:icon="@drawable/ic_primefaces"
-            android:title="Ayuda" />
+            android:title="Mis Resultados" />
         <item
             android:id="@+id/item_14"
             android:icon="@drawable/cuenta"
@@ -65,15 +65,23 @@
         <item
             android:id="@+id/item_15"
             android:icon="@drawable/categorias"
-            android:title="@string/item_categorias" />
+            android:title="@string/happy" />
         <item
             android:id="@+id/item_16"
             android:icon="@drawable/categorias"
-            android:title="@string/item_cuenta" />
+            android:title="@string/item_docs" />
         <item
             android:id="@+id/item_18"
             android:icon="@drawable/cuenta"
             android:title="Mi Cuenta"/>
+        <item
+            android:id="@+id/item_20"
+            android:icon="@drawable/cuenta"
+            android:title="Música"/>
+        <item
+            android:id="@+id/item_21"
+            android:icon="@drawable/cuenta"
+            android:title="Practicas de Código"/>
         <item
             android:id="@+id/item_17"
             android:icon="@drawable/configuracion"

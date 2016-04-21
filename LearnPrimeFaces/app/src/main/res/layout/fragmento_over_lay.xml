@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -19,28 +24,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txv_panel_answer"
+        android:text="OverLay: diálogo es un widget de panel recubierto con la modalidad, minimizar, maximizar y animaciones."
         android:textSize="15dp"
         android:autoLink="none"
-
         android:background="#dab2b2"
         android:autoText="false"
         android:foregroundGravity="center"
-        android:gravity="center" />
+        android:gravity="center"
+        android:padding="15dp"/>
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/img_team5_screen1"
+        android:src="@drawable/img_team_dialog_overlay"
         android:foregroundGravity="center" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txv_panel_v"
+        android:text="TooltipTooltip: widget de información de herramienta va más allá de la información de herramientas del navegador proporcionado por feauturing básicos tematización diferentes, efectos, eventos y soporte de contenido personalizado."
         android:textSize="15dp"
         android:autoLink="none"
-
         android:background="#dab2b2"
-        android:foregroundGravity="center" />
+        android:foregroundGravity="center"
+        android:padding="15dp"/>
 
     />
     <ImageView
@@ -50,3 +55,4 @@
         android:foregroundGravity="center" />
 
 </LinearLayout>
+    </ScrollView>

@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mx.edu.utng.primefaceslfar.R;
-import mx.edu.utng.primefaceslfar.ui.a_tema_i.ResultActivityWebComponents;
+import mx.edu.utng.primefaceslfar.database.puntaje.SQLControlador;
 
 
 /**
@@ -29,6 +29,8 @@ public class FragmentoInputPrincipal extends Fragment {
     private AppBarLayout appBar;
     private TabLayout pestanas;
     private ViewPager viewPager;
+
+    SQLControlador dbconeccion;
 
     public FragmentoInputPrincipal() {
     }
@@ -43,6 +45,8 @@ public class FragmentoInputPrincipal extends Fragment {
 
             // Setear adaptador al viewpager.
             viewPager = (ViewPager) view.findViewById(R.id.pager);
+            dbconeccion = new SQLControlador(getActivity());
+            dbconeccion.abrirBaseDeDatos();
             poblarViewPager(viewPager);
             pestanas.setupWithViewPager(viewPager);
         }
@@ -58,12 +62,14 @@ public class FragmentoInputPrincipal extends Fragment {
         appBar.addView(pestanas);
     }
 
-    private void poblarViewPager(ViewPager viewPager) {
+    private void poblarViewPager(ViewPager viewPager)
+    {
+
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment(new FragmentoInputTema(), "PrimeFaces");
-        if (ResultActivityWebComponents.cadWebComponents != "") {
 
-            Toast.makeText(getActivity(), "Si hay Resultado " + ResultActivityWebComponents.cadWebComponents, Toast.LENGTH_SHORT).show();
+        if (Integer.parseInt(dbconeccion.intento("1"))<=2&&Integer.parseInt(dbconeccion.intento("1"))>0) {
+            Toast.makeText(getActivity(), "Si hay Resultado " + dbconeccion.intento("1"), Toast.LENGTH_SHORT).show();
             adapter.addFragment(new FragmentOpenQuizInput(), "Question");
             adapter.addFragment(new FragmentoInputVideo(), "Video");
         }

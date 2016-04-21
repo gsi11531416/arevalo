@@ -137,4 +137,65 @@
     <string name="str_team_grudcss_panelII">GrudCss: es una utilidad de diseño sensible ligera optimizada para dispositivos móviles, tablets y ordenadores de sobremesa. Hasta 12 columnas están soportados sobre la base de modos de fluidos y fijos. Cualquier combinación de columnas son compatibles, siempre y cuando total es de 12. Para obtener la respuesta añadir .ui-rejilla sensible y para la anchura de contenedores fijos añadir la interfaz de usuario de la red de la fijada en el contenedor.</string>
     <string name="str_team_notify_panel">Notify: es una barra de notificación que se puede colocar en la parte superior o inferior de la pantalla.</string>
     <string name="str_team_tabview_panel">TabView: es un componente del panel con pestañas con las pestañas del lado del cliente, carga de contenidos dinámicos con Ajax y efectos de transición de contenido.</string>
+    <string name="str_team_btn">SplitButton un conjunto de comandos en una superposición con un comando predeterminado.</string>
+    <string name="str_team_carrusel_data">Carousel: muestra el contenido usando un efecto de deslizamiento que ofrece el modo de respuesta, el apoyo golpe para los dispositivos habilitados para tocar y diversas opciones de personalización.</string>
+    <string name="str_team_carrosel_dataII">El contenido del carrusel se puede definir mediante programación o de forma declarativa. Por forma programática, definen los datos siguiendo la opción de fuente de datos, donde el valor puede ser una matriz de Javascript o una función que devuelve datos por lo general mediante la conexión a una fuente remota. Enfoque declarativo, simplemente requiere un elemento de la lista con los objetos \'li\' como los niños.</string>
+    <string name="str_team_datatable_data">DataTable tiene 3 modos de inicialización; local, remoto con ganas y perezoso remoto. Tipo de datos debe ser un conjunto de objetos JSON para todos los casos. En el modo local, los datos se representa como una variable local, en el modo ansiosos remoto, fuente de datos es una función para recuperar los datos una sola vez desde el servidor y en función del modo de fuente de datos perezoso a distancia se llama siempre que sea necesario, como la inicialización, paginación, clasificación y filtrado .</string>
+    <string name="str_bcode_menu"><![CDATA[$ ( \'# TM1\' ) .puitieredmenu ();\n $ ( \'# TM2\' ) .puitieredmenu ({\n autoDisplay: falsa\n });\n $ ( \'# TM3\' ) .puitieredmenu ({\n emergente: verdad ,\n disparo: $ ( \'# tm3trigger\' )\n });\n $ ( \'Botón\' ) .puibutton ();\n < H3 clase = ´\'primera\' > Por defecto </ h3 >\n < Ul ID = \'TM1\' >\n < Li > < un icono de datos = \'fa-archivo-o\' > Archivo </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-plus\' > Nueva </ a >\n < Ul >\n < Li > < un > Proyecto </ a > </ li >\n < Li > < un > Otros </ a > </ li >\n </ Ul >\n </ Li >\n < Li > < un > Abrir </ a > </ li >\n < Li > < un > Salir </ a > </ li >\n </ Ul >\n </ Li > \'\n < Li > < un icono de datos = \'fa-editar\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-mail-forward\' > Deshacer </ a > </ li >\n < Li > < un icono de datos = \'fa-mail de respuesta\' > Rehacer </ a > </ li >\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-pregunta\' > Ayuda </ a >\n < Ul >\n < Li > < un > Contenido </ a > </ li >\n <li>\n < Un icono de datos = \'fa-búsqueda\' > Buscar </ a >\n < Ul >\n < Li > < un > texto </ a >\n < Ul >\n < Li > < un > Espacio de trabajo </ a > </ li >\n </ Ul >\n </li>\n < Li > < un > archivo </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-artes\' > Acciones </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-refresh\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-save\' > Guardar </ a > </ li >\n < Li > < un icono de datos = \'fa-save\' > Actualizar </ a > </ li >\n </ Ul >\n </li>\n < Li > < un icono de datos = \'fa-teléfono\' > Otros </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-menos\' > Eliminar </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-cierre\' > Salir </ a >\n </li>\n </ Ul >\n \n < H3 > Haga clic del disparador </ h3 >\n < Ul ID = \'TM2\' >\n < Li > < un icono de datos = \'fa-archivo-o\' > Archivo </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-plus\' > Nueva </ a >\n < Ul >\n < Li > < un > Proyecto </ a > </ li >\n < Li > < un > Otros </ a > </ li >\n </ Ul >\n </ Li >\n < Li > < un > Abrir </ a > </ li >\n < Li > < un > Salir </ a > </ li >\n </ Ul >\n </li>\n < Li > < un icono de datos = \'fa-editar\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-mail-forward\' > Deshacer </ a > </ li >\n < Li > < un icono de datos = \'fa-mail de respuesta\' > Rehacer </ a > </ li >\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-pregunta\' > Ayuda </ a >\n < Ul >\n < Li > < un > Contenido </ a > </ li >\n <li>\n < Un icono de datos = \'fa-búsqueda\' > Buscar </ a >\n < Ul >\n < Li > < un > texto </ a >\n < Ul >\n < Li > < un > Espacio de trabajo </ a > </ li >\n </ Ul >\n </li>\n < Li > < un > archivo </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-artes\' > Acciones </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-refresh\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-save\' > Guardar </ a > </ li >\n < Li > < un icono de datos = \'fa-save\' > Actualizar </ a > </ li >\n </ Ul >\n </li>\n < Li > < un icono de datos = \'fa-teléfono\' > Otros </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-menos\' > Eliminar </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-cierre\' > Salir </ a >\n </li>\n </ Ul >\n \n < H3 > Superposición </ h3 >\n < Botón ID = \'tm3trigger\' estilo = \'margin-top: 0px\' > Mostrar </ botón >\n < Ul ID = \'TM3\' >\n < Li > < un icono de datos = \'fa-archivo-o\' > Archivo </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-plus\' > Nueva </ a >\n < Ul >\n < Li > < un > Proyecto </ a > </ li >\n < Li > < un > Otros </ a > </ li >\n </ Ul >\n </ Li >\n < Li > < un > Abrir </ a > </ li >\n < Li > < un > Salir </ a > </ li >\n </ Ul >\n </li>\n < Li > < un icono de datos = \'fa-editar\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-mail-forward\' > Deshacer </ a > </ li >\n < Li > < un icono de datos = \'fa-mail de respuesta\' > Rehacer </ a > </ li >\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-pregunta\' > Ayuda </ a >\n < Ul >\n < Li > < un > Contenido </ a > </ li >\n <li>\n < Un icono de datos = \'fa-búsqueda\' > Buscar </ a >\n < Ul >\n < Li > < un > texto </ a >\n < Ul >\n < Li > < un > Espacio de trabajo </ a > </ li >\n </ Ul >\n </li>\n < Li > < un > archivo </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-artes\' > Acciones </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-refresh\' > Editar </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-save\' > Guardar </ a > </ li >\n < Li > < un icono de datos = \'fa-save\' > Actualizar </ a > </ li >\n </ Ul >\n </li>\n < Li > < un icono de datos = \'fa-teléfono\' > Otros </ a >\n < Ul >\n < Li > < un icono de datos = \'fa-menos\' > Eliminar </ a > </ li >\n </ Ul >\n </li>\n </ Ul >\n </li>\n <li>\n < Un icono de datos = \'fa-cierre\' > Salir </ a >\n </li>\n </ Ul >\n < H3 > PrimeElement </ h3 >\n < P-tieredmenu >\n < P-submenú valor = \'Archivo\' icono = \'fa-archivo-o\' >\n < P-submenú valor = \'nuevo\' icono = \'fa-plus\' >\n < P-menuitem valor = \'Proyecto\' > </ p-menuitem >\n < P-menuitem valor = \'Otros\' > </ p-menuitem >\n </ P-submenú >\n < P-menuitem valor = \'Abrir\' > </ p-menuitem >\n < P-menuitem valor = \'Salir\' > </ p-menuitem >\n </ P-submenú >\n < P-submenú valor = \'Editar\' icono = \'fa-editar\' >\n < P-menuitem valor = \'Deshacer\' icono = \'fa-mail-forward\' > </ p-menuitem >\n < P-menuitem valor = \'Rehacer\' icono = \'fa-mail de respuesta\' > </ p-menuitem >\n </ P-submenú >\n < P-submenú valor = \'ayuda\' icono = \'fa-pregunta\' >\n < P-menuitem valor = \'contenido\' > </ p-menuitem >\n < P-submenú valor = \'Buscar\' icono = \'fa-búsqueda\' >\n < P-submenú valor = \'texto\' >\n < P-menuitem valor = \'espacio de trabajo\' > </ p-menuitem >\n </ P-submenú >\n < P-menuitem valor = \'Archivo\' > </ p-menuitem >\n </ P-submenú >\n </ P-submenú >\n < P-submenú valor = \'Acción\' icono = \'fa-artes\' >\n < P-submenú valor = \'Editar\' icono = \'fa-refresh\' >\n < P-menuitem valor = \'Guardar\' icono = \'fa-save\' > </ p-menuitem >\n < P-menuitem valor = \'Update\' icono = \'fa-save\' > </ p-menuitem >\n </ P-submenú >\n < P-submenú valor = \'Otros\' icono = \'fa-teléfono\' >\n < P-menuitem valor = \'Borrar\' icono = \'fa-menos\' > </ p-menuitem >\n </ P-submenú >\n </ P-submenú >\n < P-menuitem valor = \'Salir\' icono = \'fa-cierre\' > </ p-menuitem >\n </ P-tieredmenu >]]></string>
+    <string name="aq1">PrimeFaces</string>
+    <string name="a3q1">PrimeFaces</string>
+    <string name="q1">Es una librería de componentes para JavaServer Faces (JSF) de código abierto que cuenta con un conjunto de componentes enriquecidos que facilitan la creación de las aplicaciones web.</string>
+    <string name="a1q1">PrimeUI</string>
+    <string name="a2q1">FacesPrime</string>
+    <string name="happy">Divierte</string>
+    <string name="author">Desarrollado por Luis Arevalo</string>
+
+    <string name="menu_titulo">Adivina el Pokemon</string>
+    <string name="menu_jugar">Jugar</string>
+    <string name="menu_acerca">Acerca</string>
+    <string name="menu_Salir">Salir</string>
+    <string name="menu_otro">Lista de Pokemon</string>
+    <string name="boton_text_aceptar">Aceptar</string>
+    <string name="pregunta">¿Quién es ese Pokemon?</string>
+    <string name="loser_text">Intentalo de nuevo</string>
+    <string name="total_puntos">Intentos : </string>
+    <string name="msg_ganaste">Adivinaste todos los Pokemons</string>
+    <string name="msg_perdiste"> Te has quedado sin intentos. Intentalo de Nuevo </string>
+
+
+    <string name="arrancar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acercade">Acerca de </string>
+    <string name="puntuaciones">Puntuaciones</string>
+    <string name="tituloAplicacion">KillDead</string>
+    <string name="hello">Hello World, Asteroides! </string>
+
+    <string name="buscar">Buscar</string>
+    <string name="array">Array</string>
+    <string name="tituloPreferencias">Preferencias</string>
+    <string name="ficheroInt">Fichero interno</string>
+    <string name="ficheroExt">Fichero externo</string>
+    <string name="ficheroExtApl">Fichero externo aplicación</string>
+    <string name="ficheroIntRaw">Fichero interno Raw</string>
+    <string name="ficheroIntAssets">Fichero interno assets</string>
+    <string name="ficheroXmlSax">Fichero XMLSax</string>
+    <string name="ficheroXmlDom">Fichero XMLDom</string>
+    <string name="noHayPuntuaciones">No hay puntuaciones</string>
+    <string name="ficheroSQLite">SQLite</string>
+    <string name="ficheroSQLiteRel">SQLiteRel</string>
+    <string name="ficheroProvider">Provider</string>
+    <string name="ficheroServidorSocket">Servidor web socket</string>
+    <string name="ficheroServidorWeb">Servidor web Tomcat + Axis2</string>
+    <string name="ficheroServidorWebPHP">WS PHP + jtomas.hostinazo</string>
+    <string name="ficheroServidorWebPHP_AsyncTask">WS PHP + AsyncTask + epr.hostinazo</string>
+    <string name="deadZombies">Zombies muertos:</string>
+
+    <string name="guarda_nombre">Introduce tu Nombre</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+	<string name="acerca">Este Juego esta desarrollado como diversión dentro del modulo primefaces(Aplicacion desarrollada por
+        \nLuis Arévalo)
+    \n Proyecto de la Universidad Tecnologica del Norte de Gunajuato</string>
+    <string name="item_docs">Mis Documentos</string>
+    <string name="save">Guardar Resultado</string>
 </resources>

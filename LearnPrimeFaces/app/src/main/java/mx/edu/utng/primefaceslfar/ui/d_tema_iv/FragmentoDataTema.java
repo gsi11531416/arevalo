@@ -10,7 +10,7 @@ import mx.edu.utng.primefaceslfar.R;
 
 
 /**
- * Fragmento para la pestaña "TARJETAS" de la sección "Mi Cuenta"
+ * Fragmento para la pestaña Tema de la sección PrimeFaces
  */
 public class FragmentoDataTema extends Fragment {
 

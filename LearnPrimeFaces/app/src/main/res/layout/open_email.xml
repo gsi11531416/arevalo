@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txv_opne_login"
+    android:text="Para continuar en el curso LearnPrimeFaces, es necesario iniciar sesion..."
+    android:textSize="20dp"
+    android:padding="20dp"
+    android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_open_login"
+        android:text="Abrir Login"
+        android:gravity="center"/>
+</LinearLayout>

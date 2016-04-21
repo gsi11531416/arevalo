@@ -8,6 +8,7 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
@@ -20,17 +21,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/app_id" />
-
         <activity
             android:name="mx.edu.utng.primefaceslfar.ui.ActividadPrincipal"
             android:label="@string/app_name"
             android:theme="@style/Theme.ConNavigationDrawer" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -43,19 +39,40 @@
                 android:value="mx.edu.utng.primefaceslfar.ui.ActividadPrincipal" />
         </activity>
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.MainActivity" />
-
         <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.QuizActivityWebComponets"></activity>
         <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.ResultActivityWebComponents"></activity>
         <activity android:name=".ui.a_tema_ii.QuizActivityInput"/>
         <activity android:name=".ui.a_tema_ii.ResultActivityInput"/>
-
+        <activity android:name=".ui.c_tema_iii.QuizActivityButton"></activity>
+        <activity android:name=".ui.c_tema_iii.ResultActivityButton"></activity>
+        <activity android:name=".ui.d_tema_iv.QuizActivityData"></activity>
+        <activity android:name=".ui.d_tema_iv.ResultActivityData"></activity>
+        <activity android:name=".ui.e_tema_v.QuizActivityPanel"></activity>
+        <activity android:name=".ui.e_tema_v.ResultActivityPanel"/>
+        <activity android:name=".ui.f_tema_vi.QuizActivityOverLay"/>
+        <activity android:name=".ui.f_tema_vi.ResultActivityOverLay"/>
+        <activity android:name=".ui.g_tema_vii.QuizActivityMenu"/>
+        <activity android:name=".ui.g_tema_vii.ResultActivityMenu"/>
+        <activity android:name=".database.puntaje.MyActivity"></activity>
+        <activity android:name=".database.puntaje.GuardarCalificacion"></activity>
+        <activity android:name=".database.puntaje.ModificarCalificacion"></activity>
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.LoginGmail" />
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.Login" />
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.Register" />
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.ReadComments" />
-        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_i.SeleccionPreferenciasActivityWebComponentes" />
-        <activity android:name="mx.edu.utng.primefaceslfar.ui.a_tema_ii.SeleccionPreferenciasActivityInput" />
         <activity android:name="mx.edu.utng.primefaceslfar.ui.login.SeleccionPreferenciasActivityLogin" />
+        <activity android:name=".database.puntaje.GraficarResultado"></activity>
+        <activity android:name=".database.puntaje.MisDocumentos"></activity>
+        <activity android:name=".modelo.MusicOnline"></activity>
+        <activity android:name=".modelo.Codigo"></activity>
+        <activity android:name=".ui.a_tema_i.VideoC"></activity>
+        <!--Juego 2-->
+        <activity android:name=".juego2.MainActivity" android:label="Matando" android:screenOrientation="portrait"></activity>
+        <activity android:name=".juego2.AcercaDe" android:label="AcercaDe" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat"></activity>
+        <activity android:name=".juego2.PreferenciasJuego" android:screenOrientation="portrait" android:label="@string/tituloPreferencias"></activity>
+        <activity android:name=".juego2.PuntuacionesJuego" android:screenOrientation="portrait" android:label="@string/puntuaciones" ></activity>
+        <activity android:name=".juego2.Game" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat" />
+        <service android:name="juego2.ServicioMusicaFondo" />
     </application>
 
 </manifest>

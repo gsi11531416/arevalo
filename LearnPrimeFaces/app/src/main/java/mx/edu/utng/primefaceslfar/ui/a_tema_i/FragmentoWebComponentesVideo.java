@@ -5,38 +5,31 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import mx.edu.utng.primefaceslfar.R;
 
-
-/**
- * Fragmento para la pestaña "TARJETAS" de la sección "Mi Cuenta"
- */
 public class FragmentoWebComponentesVideo extends Fragment {
-
-    public FragmentoWebComponentesVideo() {
-    }
-
+    WebView wv;
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-
-        View v = inflater.inflate(R.layout.fragmento_web_componentes_video, container, false);
-       /* VideoView video = (VideoView)v.findViewById(R.id.video);
-        video.setVideoPath(
-                "http://primefacesapplfar.hol.es/videos/primefaces_introduccion.mp4");
-        MediaController mc= new MediaController(getContext());
-        mc.setAnchorView(video);
-        mc.setMediaPlayer(video);
-        video.setMediaController(mc);*/
+    public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle args) {
+        View view = inflater.inflate(R.layout.web_fragment, container, false);
+        WebView displayVideo = (WebView)view.findViewById(R.id.webView1);
+        String frameVideo = "<html><body>Youtube video .. <br><center> <iframe width=\"100%\" height=\"50%\" src=\"https://www.youtube.com/embed/v2t0CuHTajQ\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
 
 
-
-                return v;
-
-
-
+        displayVideo.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                return false;
+            }
+        });
+        WebSettings webSettings = displayVideo.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        displayVideo.loadData(frameVideo, "text/html", "utf-8");
+        return view;
     }
-
 
 }

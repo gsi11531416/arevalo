@@ -8,5 +8,17 @@
     <dimen name="altura_miniatura_comida">250dp</dimen>
 
     <dimen name="ancho_logo">200dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_layout">16dp</dimen>
+    <dimen name="margen_imagen">12dp</dimen>
+
+    <dimen name="activity_horizontal_margin">30dp</dimen>
+    <dimen name="activity_vertical_margin_game">30dp</dimen>
+    <dimen name="textsizebtnmain">30sp</dimen>
+    <dimen name="textsizetitulomain">60sp</dimen>
+    <dimen name="padding_txt_btn">5dp</dimen>
+    <dimen name="margin_btn">5dp</dimen>
+
+
 
 </resources>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -19,15 +23,104 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txv_firs_team_menu"
+        android:text="Breadcrumb: proporciona información contextual sobre jerarquía de páginas."
         android:textSize="15dp"
         android:autoLink="none"
-
         android:background="#dab2b2"
         android:autoText="false"
         android:foregroundGravity="center"
-        android:gravity="center" />
-    <ImageView
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Megamenu: muestra submenús de elementos raíz juntos."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MenuBar: es un menú componentes horizontales con soporte para los submenús anidados."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SlideMenu: muestra submenús con animación de diapositivas similar a los menús del iPod."
+    android:textSize="15dp"
+    android:autoLink="none"
+    android:background="#dab2b2"
+    android:autoText="false"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ContextMenu: clic derecho en cualquier parte de esta página para ver las opciones del menú contextual."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú es un componente de navegación / comando altamente personalizable que soporta posicionamiento dinámico y estático."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PanelMenu es un híbrido de componentes de acordeón de árboles."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TieredMenu muestra submenús en las capas anidadas."
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bcode_menu"
+        android:textSize="15dp"
+        android:autoLink="none"
+        android:background="#dab2b2"
+        android:autoText="false"
+        android:foregroundGravity="center"
+        android:gravity="left"
+        android:padding="15pt"/>
+      <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/img_team6_screen1"
@@ -35,3 +128,4 @@
 
 
 </LinearLayout>
+    </ScrollView>
